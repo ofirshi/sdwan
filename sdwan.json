@@ -2,7 +2,7 @@
   "extension": {
     "name": "Map SD-WAN Sites",
     "product-url": "https://sc1.checkpoint.com/documents/SmartConsole/Extensions/index.html",
-    "provider": "https://raw.githubusercontent.com/ofirshi/sdwan/main/",
+    "provider": "raw.githubusercontent.com",
     "version": "0.1",
     "extension-version-requirements": {
       "minimum-version": "1.2"
