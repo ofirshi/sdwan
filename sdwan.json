@@ -1,0 +1,28 @@
+{
+  "extension": {
+    "name": "Map SD-WAN Sites",
+    "product-url": "https://sc1.checkpoint.com/documents/SmartConsole/Extensions/index.html",
+    "provider": "dannyjung.de",
+    "version": "0.1",
+    "extension-version-requirements": {
+      "minimum-version": "1.2"
+    }
+  },
+  "locations": [
+    {
+      "location": "details-pane",
+      "relevant-types": ["gateways"],
+      "ui-element": {
+        "type": "tab",
+        "caption": "SD-WAN Map",
+        "tooltip": "Show SD-WAN sites on world map",
+        "action": {
+          "details-level": "full",
+          "method": "get",
+          "trigger-id": "gateways-details-pane",
+          "url": "sdwan.htm"
+        }
+      }
+    }
+  ]
+}
